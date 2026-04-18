@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts';
 import { useTheme } from '../App';
 
+const USD_TO_INR = 83.5;
 const priceUSD = 100;
 const priceINR = priceUSD * USD_TO_INR;
 const COLORS = ['#15803d', '#3b82f6', '#f59e0b'];
